@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import LandingPage from './pages/LandingPage';
 import OurServices from './pages/OurServices';
 import BookASession from './pages/BookASession';

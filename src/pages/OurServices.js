@@ -17,8 +17,8 @@ function OurServices() {
                 <div className='our-services-body'>
                 <h1 className='intro-content'>What We Offer</h1>
                 <h3 className='intro-content'>Maths tutors are a click away</h3>
-                <p className='para-one intro-content'>Our services are provided all online as we believe in adapting with the times
-                Tehcnology has allows us to match our export tutors with your child to provide the best tuition services in the market!</p>
+                <p className='para-one intro-content'>Our services are provided all online as we believe in adapting with the times.
+                Tehcnology has allows us to match your child with one of our export tutors to provide the best tuition services on the market!</p>
                 <Link to="/book-a-session"><button className="our-services-button">Find a Tutor</button></Link>
                 </div>
                 <div className='tester'>
@@ -32,17 +32,17 @@ function OurServices() {
                     <div className='how-to-find'>
                         <div className='how-to-find-1'>
                         <img src={one}  className="how-to-find-img"/>
-                        <p className='how-to-find-p'>Complete the form to book either an independent or group session depending on the specific requirements your child</p>
+                        <p className='how-to-find-p'>Complete the form to book either an independent or group session depending on the specific requirements for your child</p>
                         </div>
                         <div className='how-to-find-2'>
                         <img src={two} className="how-to-find-img"/>
-                        <p className='how-to-find-p'>Our dedicated team will match your student with one of our high quality expert Maths tutors. 
-                        Our export tutors will reach out to you to introduce themselves and work with you to onboard you and your child 
-                        onto the sessions we currently have</p>
+                        <p className='how-to-find-p'>Our dedicated team will match your student with one of our high quality expert tutors. 
+                        Our expert tutors will reach out to you to introduce themselves and work with you to onboard you and your child 
+                        onto a session</p>
                         </div>
                         <div className='how-to-find-3'>
                         <img src={three} className="how-to-find-img"/>
-                        <p className='how-to-find-p'>Online sessiosn will begin and we will be focused on your childs success in Maths going forward!</p>
+                        <p className='how-to-find-p'>Online sessions will begin and we will be focused on your child's success!</p>
                         </div>
                     </div>
                     <Link to="/book-a-session"><button className='start-tuition'>Get Started Now</button></Link>

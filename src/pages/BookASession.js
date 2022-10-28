@@ -16,6 +16,11 @@ function BookASession() {
                         <input type='text' name='guardian' placeholder='Name of Guardian' className='book-a-session-input'/>
                         <input type='email' name='email' placeholder='Email Address' className='book-a-session-input'/>
                         <input type='tel' name='tel' placeholder='Contact Number' className='book-a-session-input'/>
+                        <select name='subject' className='book-a-session-input'>
+                            <option value="" disabled selected>What Subject are you interested in?</option>
+                            <option value="Maths">Maths</option>
+                            <option value="English">English</option>
+                        </select>
                         <textarea type='text' name='message' placeholder='Notes' className='book-a-session-input'/>
                         <button type='submit' className='start-tuition start-tuition-button'>Submit</button>
                     </form>

@@ -26,6 +26,7 @@ function Header() {
                     <li className="nav-links"><Link to="/our-services" className={"nav-test-link-links"} onClick={() => closeMenu()}>Our Services</Link></li>
                     <li className="nav-links"><Link to="/book-a-session" className={"nav-test-link-links"} onClick={() => closeMenu()}>Book a Session</Link></li>
                     <li className="nav-links"><Link to="/about-us" className={"nav-test-link-links"} onClick={() => closeMenu()}>About Us</Link></li>
+                    <li className="nav-links"><Link to="/contact-us" className={"nav-test-link-links"} onClick={() => closeMenu()}>Contact Us</Link></li>
                 </ul>
             <div className="nav-title">
             <h2 classname="title">Brain Box</h2>
@@ -36,6 +37,7 @@ function Header() {
                     <li className="nav-links hidden"><Link to="/our-services" className={"nav-link-links"}>Our Services</Link></li>
                     <li className="nav-links hidden"><Link to="/book-a-session" className={"nav-link-links"}>Book a Session</Link></li>
                     <li className="nav-links hidden"><Link to="/about-us" className={"nav-link-links"}>About Us</Link></li>
+                    <li className="nav-links hidden"><Link to="/contact-us" className={"nav-link-links"}>Contact Us</Link></li>
                 </ul>
             </div>
             </nav>

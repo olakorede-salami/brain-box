@@ -12,7 +12,7 @@ function ServicePlan() {
                 <div className="services">
                 <h2>Group Sessions</h2>
                 <ul className="services-list">
-                    <li className="services-list-items">GCSE Mathematics Lessons</li>
+                    <li className="services-list-items">GCSE Mathematics or English Lessons</li>
                     <li className="services-list-items">1 Hour Sessions</li>
                     <li className="services-list-items">Class size of 10 - 15 students</li>
                     <li className="services-list-items">Fixed time/sessions </li>
@@ -23,13 +23,13 @@ function ServicePlan() {
                     <p className="price">10</p>
                     <p className="session">Per Session</p>
                     <Link to="/book-a-session"><button className="services-button">Book a Session</button></Link>
-                    <a className="services-link" href="#">Learn more about Group Sessions</a>
+                    <Link to="/our-services"><a className="services-link" href="#">Learn more about Group Sessions</a></Link>
                     </div>
                 </div>
                 <div className="services">
                 <h2>Independent Sessions</h2>
                 <ul className="services-list">
-                    <li className="services-list-items">GCSE Mathematics Lessons</li>
+                    <li className="services-list-items">GCSE Mathematics or English Lessons</li>
                     <li className="services-list-items">Direct 121 sessions with a tutor</li>
                     <li className="services-list-items">Time of session flexible</li>
                     <li className="services-list-items">Homework set</li>
@@ -40,7 +40,7 @@ function ServicePlan() {
                     <p className="price">35</p>
                     <p className="session">Per Session</p>
                     <Link to="/book-a-session"><button className="services-button">Book a Session</button></Link>
-                    <a className="services-link" href="#">Learn more about Independent Sessions</a>
+                    <Link to="/our-services"><a className="services-link" href="#">Learn more about Independent Sessions</a></Link>
                 </div>
                 </div>
             </div>

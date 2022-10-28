@@ -11,7 +11,7 @@ function LandingIntro() {
                 <h3 className='intro-content'>Get your Child Ready to Achieve Greatness!</h3>
                 <p className='intro-content'>As the new academic year begins, we need to begin preparing for exams. We are here to provide the 
                     support and guidance your child needs to ensure 
-            they are ready for their exams in summer. Our expereinced tutors will be with your child all along the way!
+            they are ready for their exams in summer. Our expereinced tutors will be with your child every step of the way!
                 </p>
                 <Link to="/book-a-session"><button className="start-tuition">Start Tuition</button></Link>
                 </div>

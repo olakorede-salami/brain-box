@@ -580,13 +580,13 @@ nav {
 /* ------------- sliding menu ------------------ */
 
 
-.visible {
+/* .visible {
     display: inherit;
-}
+} */
 
 /* ----- animations--------- */
 /* clicked */
-.burger-bar.clicked:nth-child(1){
+/* .burger-bar.clicked:nth-child(1){
     transform: rotate(45deg) translate(0.75em, 1.25em);
     transition: ease-out 0.5s;
 }
@@ -599,20 +599,21 @@ nav {
 .burger-bar.clicked:nth-child(3){
     transform: rotate(135deg) translate(-0.5em, 1em);
     transition: ease-out 0.5s;
-}
+} */
 
 /* unclicked */
-.burger-bar.unclicked {
+/* .burger-bar.unclicked {
     transform: rotate(0) translate(0);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
-}
+} */
 .navBar {
   position: relative;
+  right: 40px;
 }
 
 .navBar button {
   position: sticky !important;
-  left: 290px;
+  left: 310px;
   top: 20px;
   z-index: 10;
   cursor: pointer;
@@ -644,9 +645,9 @@ nav {
 
 a.nav-test-link-links{
   display: block;
-  padding: 10px 40px;
+  padding: 40px 40px;
   text-decoration: none;
-  color: black;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Montserrat'
@@ -658,6 +659,8 @@ a.nav-test-link-links{
 
 .footer-nav-list {
   flex-direction: column;
+  position: relative;
+  right: 10px;
 }
 
 .footer-links {
@@ -719,7 +722,7 @@ word-break: break-word !important;
 
 .navBar button {
   position: fixed;
-  left: 290px;
+  left: 310px;
   top: 20px;
   z-index: 10;
   cursor: pointer;
@@ -750,9 +753,9 @@ word-break: break-word !important;
 
 a.nav-test-link-links{
   display: block;
-  padding: 10px 40px;
+  padding: 40px 40px;
   text-decoration: none;
-  color: black;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Montserrat'
