@@ -608,12 +608,16 @@ nav {
 } */
 .navBar {
   position: relative;
-  right: 40px;
+}
+
+.nav-title {
+  position: relative;
+  right: 45px;
 }
 
 .navBar button {
   position: sticky !important;
-  left: 310px;
+  left: 325px;
   top: 20px;
   z-index: 10;
   cursor: pointer;
@@ -722,7 +726,7 @@ word-break: break-word !important;
 
 .navBar button {
   position: fixed;
-  left: 310px;
+  left: 345px;
   top: 20px;
   z-index: 10;
   cursor: pointer;
