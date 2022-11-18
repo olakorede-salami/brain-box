@@ -27,6 +27,10 @@ body {
   overflow-x: hidden;
 }
 
+nav {
+  height: 7em;
+}
+
 h1 {
   font-size: 2rem;
   box-sizing: border-box;
@@ -534,7 +538,7 @@ img.how-to-find-img {
 /* ---------------- Navbar and burger menu ------------------ */
 nav {
     width: 100%;
-    height: 5em;
+    height: 7em;
     background-color: white;
     display: flex;
     justify-content: flex-end;
@@ -679,6 +683,7 @@ a.nav-test-link-links{
   margin-left: 30px;
 }
 
+
 }
 
 .privacy-policy-header {
@@ -767,4 +772,10 @@ a.nav-test-link-links{
 
 .menuNav li:first-child {
   margin-top: 7rem;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 25px;
+  cursor: pointer;
 }
