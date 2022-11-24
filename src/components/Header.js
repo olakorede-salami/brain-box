@@ -30,8 +30,7 @@ function Header() {
                     <li className="nav-links"><Link to="/contact-us" className={"nav-test-link-links"} onClick={() => closeMenu()}>Contact Us</Link></li>
                 </ul>
             <div className="nav-title">
-            {/* <h2 classname="title">Brain Box</h2> */}
-            <img className='logo' src={logo}></img>
+            <Link to="/" className={"nav-link-links"}><img className='logo' src={logo}></img></Link> 
             </div>
             <div className="nav-area">
             <ul className="nav-list hidden">

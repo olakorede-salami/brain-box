@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer';
-import BookASessionForm from '../components/BookASessionForm';
 
 function BookASession() {
     return (
@@ -21,10 +20,14 @@ function BookASession() {
                             <option value="Maths">Maths</option>
                             <option value="English">English</option>
                         </select>
+                        <select name='session' className='book-a-session-input'>
+                            <option value="" disabled selected>What Session Type are you interested in?</option>
+                            <option value="Group">Group Sessions</option>
+                            <option value="Independent">Independent Sessions</option>
+                        </select>
                         <textarea type='text' name='message' placeholder='Notes' className='book-a-session-input'/>
                         <button type='submit' className='start-tuition start-tuition-button'>Submit</button>
                     </form>
-                    {/* <BookASessionForm /> */}
                 </div>
             </section>
             <Footer />
