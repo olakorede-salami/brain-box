@@ -1,8 +1,15 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer';
+import {useEffect} from 'react';
+import ReactGA from "react-ga4";
 
 function PrivacyPolicy() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+}, []);
+
     return ( 
         <div>
             <Header />

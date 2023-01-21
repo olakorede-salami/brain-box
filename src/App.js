@@ -5,9 +5,14 @@ import OurServices from './pages/OurServices';
 import BookASession from './pages/BookASession';
 import AboutUs from './pages/AboutUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import CookiePolicy from './pages/CookiePolicy';
 import { Route, Routes } from 'react-router-dom'
 import Faqs from './pages/Faqs';
 import ContactUs from './pages/ContactUs';
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-MZC56FSE8N");
+ReactGA.send("pageview");
 
 function App() {
   return (
@@ -18,6 +23,7 @@ function App() {
         <Route path="/book-a-session" element={<BookASession />}/> 
         <Route path="/about-us" element={<AboutUs />}/> 
         <Route path="/privacy-policy" element={<PrivacyPolicy />}/> 
+        <Route path="/cookie-policy" element={<CookiePolicy/>}/> 
         <Route path="/faqs" element={<Faqs />}/> 
         <Route path="/contact-us" element={<ContactUs />}/> 
       </Routes>

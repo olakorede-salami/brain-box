@@ -8,8 +8,15 @@ import three from '../images/3.png'
 import Footer from '../components/Footer';
 import { Route, Routes, Link } from 'react-router-dom';
 import TestNav from '../components/TestNav';
+import {useEffect} from 'react';
+import ReactGA from "react-ga4";
 
 function OurServices() {
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname)
+    }, []);
+    
     return(
         <div>
             <Header />

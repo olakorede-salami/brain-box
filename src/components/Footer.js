@@ -7,7 +7,7 @@ return(
         <footer className='footer'>
             <div>
             <ul className="footer-nav-list">
-                        <Link to="/our-services" className={"footer-links"}><li className="nav-links">Cookie Policy</li></Link>
+                        <Link to="/cookie-policy" className={"footer-links"}><li className="nav-links">Cookie Policy</li></Link>
                         <Link to="/privacy-policy" className={"footer-links"}><li className="nav-links">Privacy Policy</li></Link>
                         <Link to="/faqs" className={"footer-links"}><li className="nav-links">FAQs</li></Link>
                         <Link to="/about-us" className={"footer-links"}><li className="nav-links">About Us</li></Link>

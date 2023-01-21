@@ -3,8 +3,17 @@ import Header from '../components/Header';
 import Team from '../images/team.png'
 import Footer from '../components/Footer';
 import Project from '../images/project3.png'
+import { Route, Routes, Link } from 'react-router-dom';
+import {useEffect} from 'react';
+import ReactGA from "react-ga4";
+
 
 function AboutUs() {
+    
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname)
+    }, []);
+
     return(
         <div>
              <Header />
@@ -15,7 +24,7 @@ function AboutUs() {
                 yo you and your child, our aim is to ensure that not only achioeve their target grades but exceed expectations 
                 and excel because we beleive all kids have the potential for greatness, they just need to right attention 
                 and that is what we are here for!</p>
-                <button className="about-us-button">Find a Tutor</button>
+                <Link to="/book-a-session"><button className="about-us-button">Find a Tutor</button></Link>
                 </div>
                 <div className='tester'>
                     <img src={Team} className="team-img"/>
@@ -28,7 +37,7 @@ function AboutUs() {
                 "Use a word to explain people working In good industries and roles, maybe include all university graduates?". 
                 During the introduction with the tutors, this is your chance to get to know our tutors before committing to ensure 
                 they are right for your child!</p>
-                <button className="about-us-button">Find a Tutor</button>
+                <Link to="/book-a-session"><button className="about-us-button">Find a Tutor</button></Link>
                 </div>
                 <div className='tester'>
                     <img src={Project} className="team-img2"/>
