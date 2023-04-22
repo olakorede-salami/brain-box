@@ -1,5 +1,5 @@
 import React from 'react'
-import work from '../images/work.png'
+import work from '../images/work1.png'
 import { Route, Routes, Link } from 'react-router-dom';
 
 function LandingIntro() {
