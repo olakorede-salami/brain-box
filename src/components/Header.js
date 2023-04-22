@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Route, Routes, Link } from 'react-router-dom';
 import { MdClose } from "react-icons/md"
 import { FiMenu } from "react-icons/fi"
-import logo from '../images/Logo3.webp'
+import logo from '../images/Logo5.png'
 
 function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false)
