@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-import services from '../images/services 2.png'
 import teacher from '../images/teacher.png'
 import one from '../images/1.png'
 import two from '../images/2.png'
