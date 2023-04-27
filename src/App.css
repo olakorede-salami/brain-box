@@ -840,3 +840,8 @@ a.nav-test-link-links{
   width: 140px;
   cursor: pointer;
 }
+
+.notFound {
+  width: 540px;
+  cursor: pointer;
+}

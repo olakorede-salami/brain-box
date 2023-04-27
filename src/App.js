@@ -10,6 +10,7 @@ import { Route, Routes } from 'react-router-dom'
 import Faqs from './pages/Faqs';
 import ContactUs from './pages/ContactUs';
 import ReactGA from "react-ga4";
+import NotFound from './pages/NotFound';
 
 ReactGA.initialize("G-MZC56FSE8N");
 ReactGA.send("pageview");
@@ -26,6 +27,8 @@ function App() {
         <Route path="/cookie-policy" element={<CookiePolicy/>}/> 
         <Route path="/faqs" element={<Faqs />}/> 
         <Route path="/contact-us" element={<ContactUs />}/> 
+        <Route path="*" element={< NotFound />}/> 
+
       </Routes>
     </div>
   );
