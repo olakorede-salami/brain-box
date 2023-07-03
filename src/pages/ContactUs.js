@@ -19,7 +19,7 @@ function ContactUs() {
                 <h1 className='contact-content'>Contact Us</h1>
                 <img src={Contact} className="team-img4"></img>
                     <form action='https://formsubmit.co/brainboxtuitions@gmail.com' method='POST' className='contact-us-form'>
-                        <h3 className='intro-content'>Fill the form below and we will be in touch</h3>
+                        <h3 className='intro-content'>Have a question for our team? Fill the form below and we will be in touch!</h3>
                         <input required type='text' name='name' placeholder='Name' className='contact-us-input'/>
                         <input required type='email' name='email' placeholder='Email Address' className='contact-us-input'/>
                         <textarea required name='message' placeholder='Message' className='contact-us-input'/>

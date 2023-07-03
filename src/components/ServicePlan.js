@@ -12,10 +12,10 @@ function ServicePlan() {
                 <div className="services">
                 <h2>Group Sessions</h2>
                 <ul className="services-list">
-                    <li className="services-list-items">GCSE Mathematics or English Lessons</li>
+                    <li className="services-list-items">GCSE Maths Lessons</li>
                     <li className="services-list-items">1 Hour Sessions</li>
-                    <li className="services-list-items">Class size of 10 - 15 students</li>
-                    <li className="services-list-items">Fixed time/sessions </li>
+                    <li className="services-list-items">Class size of 5-15 students</li>
+                    {/* <li className="services-list-items">Fixed time/sessions</li> */}
                     <li className="services-list-items">Interactive Virtual Classroom</li>
                 </ul>
                 <div className="price-div">
@@ -29,10 +29,10 @@ function ServicePlan() {
                 <div className="services">
                 <h2>Independent Sessions</h2>
                 <ul className="services-list">
-                    <li className="services-list-items">GCSE Mathematics or English Lessons</li>
+                    <li className="services-list-items">GCSE Maths</li>
                     <li className="services-list-items">Direct 121 sessions with a tutor</li>
-                    <li className="services-list-items">Time of session flexible</li>
-                    <li className="services-list-items">Homework set</li>
+                    <li className="services-list-items">Time of sessions are flexible</li>
+                    {/* <li className="services-list-items">Homework set</li> */}
                     <li className="services-list-items">Interactive Virtual Classroom</li>
                 </ul>
                 <div className="price-div">

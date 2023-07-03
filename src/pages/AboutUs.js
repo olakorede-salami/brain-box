@@ -21,7 +21,7 @@ function AboutUs() {
                 <div className='about-us-body'>
                 <h1 className='intro-content'>Who we are</h1>
                 <p className='para-one intro-content'>We are a dedicated Online Tuition company who aims to provide the best quality service
-                yo you and your child, our aim is to ensure that not only achioeve their target grades but exceed expectations 
+                to you and your child, our aim is to ensure that not only achieve their target grades but exceed expectations 
                 and excel because we beleive all kids have the potential for greatness, they just need to right attention 
                 and that is what we are here for!</p>
                 <Link to="/book-a-session"><button className="about-us-button">Find a Tutor</button></Link>
@@ -34,9 +34,8 @@ function AboutUs() {
                 <div className='about-us-body'>
                 <h1 className='intro-content'>What we provide</h1>
                 <p className='para-one intro-content'>All our tutors have years of tutoring experience and are all working in 
-                "Use a word to explain people working In good industries and roles, maybe include all university graduates?". 
-                During the introduction with the tutors, this is your chance to get to know our tutors before committing to ensure 
-                they are right for your child!</p>
+                and are all university graduates currently working in industries and can share their vast knowledge. 
+                During the introduction with the tutors, this is your chance to get to know them better!</p>
                 <Link to="/book-a-session"><button className="about-us-button">Find a Tutor</button></Link>
                 </div>
                 <div className='tester'>
