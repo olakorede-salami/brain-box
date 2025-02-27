@@ -14,7 +14,7 @@ function ServicePlan() {
                 <ul className="services-list">
                     <li className="services-list-items">GCSE Maths Lessons</li>
                     <li className="services-list-items">1 Hour Sessions</li>
-                    <li className="services-list-items">Class size of 5-15 students</li>
+                    <li className="services-list-items">Class size of 5 students</li>
                     {/* <li className="services-list-items">Fixed time/sessions</li> */}
                     <li className="services-list-items">Interactive Virtual Classroom</li>
                 </ul>
