@@ -37,7 +37,7 @@ function ServicePlan() {
                 </ul>
                 <div className="price-div">
                     <p className="currency">£</p>
-                    <p className="price">35</p>
+                    <p className="price">40</p>
                     <p className="session">Per Session</p>
                     <Link to="/book-a-session"><button className="services-button">Book a Session</button></Link>
                     <Link to="/our-services"><a className="services-link" href="#">Learn more about Independent Sessions</a></Link>
