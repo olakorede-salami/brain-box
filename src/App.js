@@ -11,6 +11,12 @@ import Faqs from './pages/Faqs';
 import ContactUs from './pages/ContactUs';
 import ReactGA from "react-ga4";
 import NotFound from './pages/NotFound';
+import { initFacebookPixel } from './pixel';
+
+useEffect(() => {
+  initFacebookPixel(); // Initialize Pixel when app loads
+}, []);
+
 
 ReactGA.initialize("G-MZC56FSE8N");
 ReactGA.send("pageview");
