@@ -14,15 +14,15 @@ import NotFound from './pages/NotFound';
 import { useEffect } from 'react';
 import { initFacebookPixel } from './pixel';
 
-useEffect(() => {
-  initFacebookPixel(); // Initialize Pixel when app loads
-}, []);
 
-
-ReactGA.initialize("G-MZC56FSE8N");
-ReactGA.send("pageview");
 
 function App() {
+  useEffect(() => {
+    initFacebookPixel(); // Initialize Pixel when app loads
+  }, []);
+  
+  ReactGA.initialize("G-MZC56FSE8N");
+  ReactGA.send("pageview");
   return (
     <div className="App">
       <Routes>
