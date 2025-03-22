@@ -11,6 +11,7 @@ import Faqs from './pages/Faqs';
 import ContactUs from './pages/ContactUs';
 import ReactGA from "react-ga4";
 import NotFound from './pages/NotFound';
+import { useEffect } from 'react';
 import { initFacebookPixel } from './pixel';
 
 useEffect(() => {
